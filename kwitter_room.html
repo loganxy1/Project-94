@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Project 94</title>
+    </head>
+    <body>
+        <center>
+            <div>
+                <h1 id="kr">Kw/Quitter Room</h3>
+                <br>
+                <br>
+                <br>
+                <div id="style">
+                    <h2 id="greet"></h2>
+                <br>
+                <br>
+                <br>
+                <button id="log" type="button" onclick="logout()">Logout</button>
+                <br>
+                <br>
+                <br>
+                <input id="input" type="text" id="room_name" placeholder="Enter room name">
+                <br>
+                <br>
+                <button id="confirm" type="button" onclick="addRooom()">Confirm your room</button>
+                <br>
+                <br>
+                <h2 id="rooms"></h2>
+                </div>
+            </div>
+        </center>
+        <script src="kwitter_room.js"></script>
+    </body>
+    <style>
+        body{
+            background-color: firebrick;
+        }
+
+        #kr{
+            color:aqua;
+            margin-top: 20px;
+        }
+
+        #style{
+            background-color: aqua;
+            width: 450px;
+            border-radius: 10px;
+            height: 350px;
+        }
+
+        #confirm, #input, #log{
+            font-size: 20px;
+            color:aqua;
+        }
+
+        #confirm, #log{
+            background-color: firebrick;
+        }
+    </style>
+</html>
